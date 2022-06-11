@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="style2.css">
+    <title>Advance Web Engineering</title>
+</head>
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">Race.</div>
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+          <!-- USING CHECKBOX HACK -->
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          <!-- NAVIGATION MENUS -->
+          <div class="menu">
+            <li><a href="index2.html">Home</a></li>
+            <li><a href="#signup">Sign up</a></li>
+            <li><a href="#login">Login</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </div>
+        </ul>
+
+    </nav>
+    <!-- Navbar End -->
+    <!-- Home Start -->
+    <section id="home">
+        <div class="main">
+            <div class="headings">
+                <h1>I Make My Cars To Go Not To Stop</h1>
+                <p>Auto racing is a motorsport involving the racing of automobiles for competition. Auto racing has existed since the invention of the automobile. Races of various sorts were organised, with the first recorded as early as 1867!</p>
+                <button class="btn">Get Started</button>
+            </div>
+        </div>
+    </section>
+    <!-- Home End -->
+    <!-- Sign Up Start -->
+    <section id="signup">
+        <div class="signup-heading">
+            <div class="common-heading">
+                <h2>Sign Up</h2>
+            </div>
+        </div>
+        <center>
+        <div class="signup-main">
+            <div class="left">
+                <img src="./images/sign.avif" alt="signup" />
+            </div>
+            <div class="right">
+                <div class="form">
+                    <form action="" method="post">
+                        <div class="same">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" name="fname" placeholder="Enter your first name"  /><br>
+                        </div>
+                        <div class="same">
+                        <i class="fa-solid fa-user-check"></i>
+                        <input type="text" name="lname" placeholder="Enter your last name" /><br>
+                        </div>
+                        <div class="same">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" name="email" placeholder="Enter your email" /><br>
+                        </div>
+                        <div class="same">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" name="password" placeholder="Enter your password" /><br>
+                        </div>
+                        <button type="submit" class="btn">Signup</button>
+                        <p>Already Have an account? <a href="#login">Login Now</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </center>
+    </section>
+    <!-- Sign Up End -->
+
+    <!-- Login Start -->
+    <section id="signup">
+        <div class="signup-heading">
+            <div class="common-heading">
+                <h2>Login</h2>
+            </div>
+        </div>
+        <center>
+        <div class="signup-main" id="login">
+            <div class="left">
+                <img src="./images/log.avif" alt="signup" />
+            </div>
+            <div class="right">
+                <div class="form">
+                    <form action="" method="post">
+                        <div class="same">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" name="email" placeholder="Enter your email" /><br>
+                        </div>
+                        <div class="same">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" name="password" placeholder="Enter your password" /><br>
+                        </div>
+                        <button type="submit" class="btn">Login</button>
+                        <p class="para">Haven't an account? <a href="#signup">Sign Up</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </center>
+    </section>
+    <!-- Login End -->
+
+    <!-- Contact Us Start -->
+    <section id="signup">
+        <div class="signup-heading">
+            <div class="common-heading">
+                <h2>Contact Us</h2>
+            </div>
+        </div>
+        <!-- ******************** Contact Section Start *********************** -->
+    <div class="section-hero contact-section" id="contact">
+      
+        <div class="section-contact-main ">
+            <div class="container">
+                <form 
+                method="POST"
+                >
+                    <div class="grid grid-two-column">
+                        <div>
+                            <input type="text" name="username" placeholder="Username" id="username"/>
+                        </div> 
+                        <div>
+                            <input type="email" name="email" placeholder="example@gmail.com" id="email"/>
+                        </div> 
+                    </div>
+                    <div>
+                        <input type="text" name="subject" placeholder="subject" id="subject"/>
+                    </div>
+                    <div>
+                        <textarea name="message" id="msg" cols="30" rows="10"
+                        placeholder="Message ..."
+                        ></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn smbtn" style="width:100%">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- ******************** Contact Section End *********************** -->
+    </section>
+
+    <!-- Contact Us End -->
+
+    <!-- Footer Start -->
+    <footer>
+        <p>copyright © 2022 All rights reserved || developed by Nabiya Yousaf</p>
+    </footer>
+    <!-- Footer End -->
+    
+    
+
+    </body>
+</html>
